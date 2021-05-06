@@ -1,0 +1,92 @@
+/* En CSS tambien se define que se use unicode de 8 bits */
+@charset "utf-8";
+/* CSS Document */
+/* selector universal: para que todos los elementos html "amanezcan sin margin ni padding" */
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+
+  
+}
+
+header{
+  height: 30px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  background-color: #0e76a8; 
+
+}
+
+nav{
+  font-style: none;
+  text-align: center;
+  background-color: lightgray;
+  height: 30px;
+  line-height: 30px;
+}
+
+#contenido{
+  float:left;
+  width: 70%;
+  background-color: lightsteelblue;
+  min-height: 401px;
+  line-height: 50px;
+}
+
+aside{
+  float:left;
+  width: 30%;
+  text-align: center;
+  background-color:#202020;
+  color: white;
+
+}
+
+.clearfix{
+  clear:both;
+}
+
+footer{
+  height: 60px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  background-color: #0e76a8;
+  min-height: 400px; 
+}
+
+.redsoc{
+  color:white;
+}
+
+fieldset{
+  background-color: lightsteelblue;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  height: 250px;
+}
+
+input, textarea{
+  width: 80%;
+  margin: auto;
+  
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#button{
+  background-color: lightgrey;
+  padding: 5px;
+  width: 10%;
+  margin: 10px;
+}
